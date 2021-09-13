@@ -1,0 +1,627 @@
+1631379061384	geckodriver	INFO	Listening on 127.0.0.1:50799
+1631379061386	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSCBQv7"
+1631379061853	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSCBQv7/search.json.mozlz4", (void 0)))
+1631379063698	Marionette	INFO	Listening on port 45679
+1631379063802	Marionette	WARN	TLS certificate errors will be ignored for this session
+1631379078695	Marionette	INFO	Stopped listening on port 45679
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631379145122	geckodriver	INFO	Listening on 127.0.0.1:35913
+1631379145125	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileIhumfV"
+1631379145618	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIhumfV/search.json.mozlz4", (void 0)))
+1631379147088	Marionette	INFO	Listening on port 43947
+1631379147139	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: Error: Failed to fetch https://www.ucf.libcal.com/reserve/generalstudyroom. Code 2153394164.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:556:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 556, column: 16
+console.error: (new Error("Failed to fetch https://www.ucf.libcal.com/reserve/generalstudyroom. Code 2153394164.", "resource://devtools/shared/DevToolsUtils.js", 556))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 556: Error: Failed to fetch https://www.ucf.libcal.com/reserve/generalstudyroom. Code 2153394164.
+1631379196516	Marionette	INFO	Stopped listening on port 43947
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631379458795	geckodriver	INFO	Listening on 127.0.0.1:60019
+1631379459796	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXryEkq"
+1631379460260	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXryEkq/search.json.mozlz4", (void 0)))
+1631379461748	Marionette	INFO	Listening on port 39147
+1631379461815	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: Error: Failed to fetch https://www.ucf.libcal.com/reserve/generalstudyroom. Code 2153394164.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:556:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 556, column: 16
+console.error: (new Error("Failed to fetch https://www.ucf.libcal.com/reserve/generalstudyroom. Code 2153394164.", "resource://devtools/shared/DevToolsUtils.js", 556))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 556: Error: Failed to fetch https://www.ucf.libcal.com/reserve/generalstudyroom. Code 2153394164.
+1631379574086	Marionette	INFO	Stopped listening on port 39147
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631379579585	geckodriver	INFO	Listening on 127.0.0.1:39301
+1631379579588	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilem2opwz"
+1631379580023	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilem2opwz/search.json.mozlz4", (void 0)))
+1631379581328	Marionette	INFO	Listening on port 43637
+1631379581404	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: Error: Failed to fetch https://www.ucf.libcal.com/reserve/generalstudyroom. Code 2153394164.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:556:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 556, column: 16
+console.error: (new Error("Failed to fetch https://www.ucf.libcal.com/reserve/generalstudyroom. Code 2153394164.", "resource://devtools/shared/DevToolsUtils.js", 556))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 556: Error: Failed to fetch https://www.ucf.libcal.com/reserve/generalstudyroom. Code 2153394164.
+console.error: "Tried to send a 'target-destroyed-form' event on an already destroyed actor 'watcher'"
+1631379903238	Marionette	INFO	Stopped listening on port 43637
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631379907401	geckodriver	INFO	Listening on 127.0.0.1:60331
+1631379907404	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUprF0E"
+1631379907873	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUprF0E/search.json.mozlz4", (void 0)))
+1631379909576	Marionette	INFO	Listening on port 43957
+1631379909619	Marionette	WARN	TLS certificate errors will be ignored for this session
+1631380029747	Marionette	INFO	Stopped listening on port 43957
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631380032593	geckodriver	INFO	Listening on 127.0.0.1:45687
+1631380032596	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecjygSb"
+1631380033172	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecjygSb/search.json.mozlz4", (void 0)))
+1631380034935	Marionette	INFO	Listening on port 44133
+1631380035013	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: chrome://browser/content/contentSearchHandoffUI.js, line 81: TypeError: DOMLocalization.setAttributes: Argument 1 is not an object.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1631380184438	Marionette	INFO	Stopped listening on port 44133
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631380492975	geckodriver	INFO	Listening on 127.0.0.1:44253
+1631380492977	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaEcen9"
+1631380493439	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaEcen9/search.json.mozlz4", (void 0)))
+1631380494815	Marionette	INFO	Listening on port 37267
+1631380494892	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: Error: Failed to fetch https://www.ucf.libcal.com/reserve/generalstudyroom. Code 2153394164.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:556:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 556, column: 16
+console.error: (new Error("Failed to fetch https://www.ucf.libcal.com/reserve/generalstudyroom. Code 2153394164.", "resource://devtools/shared/DevToolsUtils.js", 556))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 556: Error: Failed to fetch https://www.ucf.libcal.com/reserve/generalstudyroom. Code 2153394164.
+1631380566039	Marionette	INFO	Stopped listening on port 37267
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631380569824	geckodriver	INFO	Listening on 127.0.0.1:41397
+1631380569827	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileN2dzjU"
+1631380570271	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileN2dzjU/search.json.mozlz4", (void 0)))
+1631380571663	Marionette	INFO	Listening on port 33493
+1631380571748	Marionette	WARN	TLS certificate errors will be ignored for this session
+1631380587134	Marionette	INFO	Stopped listening on port 33493
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631380604654	geckodriver	INFO	Listening on 127.0.0.1:59223
+1631380604656	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOXrtFM"
+1631380605107	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOXrtFM/search.json.mozlz4", (void 0)))
+1631380606447	Marionette	INFO	Listening on port 38013
+1631380606515	Marionette	WARN	TLS certificate errors will be ignored for this session
+1631380630065	Marionette	INFO	Stopped listening on port 38013
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631380745989	geckodriver	INFO	Listening on 127.0.0.1:48683
+1631380746992	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileL0GTzn"
+1631380747440	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileL0GTzn/search.json.mozlz4", (void 0)))
+1631380748989	Marionette	INFO	Listening on port 33447
+1631380749012	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+1631380777025	Marionette	INFO	Stopped listening on port 33447
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631380936134	geckodriver	INFO	Listening on 127.0.0.1:40721
+1631380936137	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileg55YeW"
+1631380936578	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileg55YeW/search.json.mozlz4", (void 0)))
+1631380938012	Marionette	INFO	Listening on port 41577
+1631380938050	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: Error: Failed to fetch https://www.ucf.libcal.com/reserve/generalstudyroom. Code 2153394164.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:556:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 556, column: 16
+console.error: (new Error("Failed to fetch https://www.ucf.libcal.com/reserve/generalstudyroom. Code 2153394164.", "resource://devtools/shared/DevToolsUtils.js", 556))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 556: Error: Failed to fetch https://www.ucf.libcal.com/reserve/generalstudyroom. Code 2153394164.
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+JavaScript error: https://www.ucf.libcal.com/js820/LibCal_public.min.js, line 1: TypeError: e.responseText is undefined
+1631380978944	Marionette	INFO	Stopped listening on port 41577
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631381059643	geckodriver	INFO	Listening on 127.0.0.1:40369
+1631381059646	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2x1luJ"
+1631381060124	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2x1luJ/search.json.mozlz4", (void 0)))
+1631381061612	Marionette	INFO	Listening on port 34299
+1631381061678	Marionette	WARN	TLS certificate errors will be ignored for this session
+1631381092749	Marionette	INFO	Stopped listening on port 34299
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631381156514	geckodriver	INFO	Listening on 127.0.0.1:51045
+1631381156515	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqxb9Yz"
+1631381156995	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqxb9Yz/search.json.mozlz4", (void 0)))
+1631381158551	Marionette	INFO	Listening on port 34641
+1631381158632	Marionette	WARN	TLS certificate errors will be ignored for this session
+1631381190312	Marionette	INFO	Stopped listening on port 34641
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631381566011	geckodriver	INFO	Listening on 127.0.0.1:49239
+1631381566013	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiley3xM1v"
+1631381566466	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiley3xM1v/search.json.mozlz4", (void 0)))
+1631381567906	Marionette	INFO	Listening on port 46043
+1631381567928	Marionette	WARN	TLS certificate errors will be ignored for this session
+1631381703289	Marionette	INFO	Stopped listening on port 46043
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631381902862	geckodriver	INFO	Listening on 127.0.0.1:45485
+1631381902865	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewsUkO3"
+1631381903335	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewsUkO3/search.json.mozlz4", (void 0)))
+1631381904856	Marionette	INFO	Listening on port 40695
+1631381904879	Marionette	WARN	TLS certificate errors will be ignored for this session
+1631382151077	Marionette	INFO	Stopped listening on port 40695
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631382175927	geckodriver	INFO	Listening on 127.0.0.1:52981
+1631382176931	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehs3nIc"
+1631382177392	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehs3nIc/search.json.mozlz4", (void 0)))
+1631382178837	Marionette	INFO	Listening on port 40523
+1631382178949	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1631383051036	Marionette	INFO	Stopped listening on port 40523
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631389582072	geckodriver	INFO	Listening on 127.0.0.1:36385
+1631389582075	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefroWCo"
+1631389582556	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefroWCo/search.json.mozlz4", (void 0)))
+1631389583941	Marionette	INFO	Listening on port 35125
+1631389583994	Marionette	WARN	TLS certificate errors will be ignored for this session
+1631389596867	Marionette	INFO	Stopped listening on port 35125
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631389610262	geckodriver	INFO	Listening on 127.0.0.1:41269
+1631389610265	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNZp5jG"
+1631389610704	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNZp5jG/search.json.mozlz4", (void 0)))
+1631389612151	Marionette	INFO	Listening on port 41849
+1631389612183	Marionette	WARN	TLS certificate errors will be ignored for this session
+1631389637770	Marionette	INFO	Stopped listening on port 41849
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631389754500	geckodriver	INFO	Listening on 127.0.0.1:49675
+1631389754503	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0k5rMB"
+1631389754940	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0k5rMB/search.json.mozlz4", (void 0)))
+1631389756321	Marionette	INFO	Listening on port 45957
+1631389756417	Marionette	WARN	TLS certificate errors will be ignored for this session
+1631389781642	Marionette	INFO	Stopped listening on port 45957
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631389784441	geckodriver	INFO	Listening on 127.0.0.1:50255
+1631389784443	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileY6RMFi"
+1631389784888	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileY6RMFi/search.json.mozlz4", (void 0)))
+1631389786367	Marionette	INFO	Listening on port 39601
+1631389786458	Marionette	WARN	TLS certificate errors will be ignored for this session
+1631389819400	Marionette	INFO	Stopped listening on port 39601
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631389836923	geckodriver	INFO	Listening on 127.0.0.1:47383
+1631389836925	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVY4efX"
+1631389837368	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVY4efX/search.json.mozlz4", (void 0)))
+1631389838768	Marionette	INFO	Listening on port 41367
+1631389838839	Marionette	WARN	TLS certificate errors will be ignored for this session
+1631389877959	Marionette	INFO	Stopped listening on port 41367
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631390028149	geckodriver	INFO	Listening on 127.0.0.1:39017
+1631390028152	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuRVmsc"
+1631390028609	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuRVmsc/search.json.mozlz4", (void 0)))
+1631390030122	Marionette	INFO	Listening on port 36635
+1631390030170	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1631391292955	Marionette	INFO	Stopped listening on port 36635
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631391296136	geckodriver	INFO	Listening on 127.0.0.1:44403
+1631391296138	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileK6623R"
+1631391296583	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileK6623R/search.json.mozlz4", (void 0)))
+1631391298105	Marionette	INFO	Listening on port 39385
+1631391298158	Marionette	WARN	TLS certificate errors will be ignored for this session
+1631391342451	Marionette	INFO	Stopped listening on port 39385
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631391343825	geckodriver	INFO	Listening on 127.0.0.1:51947
+1631391343827	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileej5HPs"
+1631391344263	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileej5HPs/search.json.mozlz4", (void 0)))
+1631391345805	Marionette	INFO	Listening on port 41397
+1631391345841	Marionette	WARN	TLS certificate errors will be ignored for this session
+1631391399521	Marionette	INFO	Stopped listening on port 41397
+1631391401458	geckodriver	INFO	Listening on 127.0.0.1:47831
+1631391401460	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFibUCY"
+1631391401922	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFibUCY/search.json.mozlz4", (void 0)))
+1631391403449	Marionette	INFO	Listening on port 37847
+1631391403475	Marionette	WARN	TLS certificate errors will be ignored for this session
+1631391420400	Marionette	INFO	Stopped listening on port 37847
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631391421621	geckodriver	INFO	Listening on 127.0.0.1:46213
+1631391421624	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5Ozwzm"
+1631391422066	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5Ozwzm/search.json.mozlz4", (void 0)))
+1631391423537	Marionette	INFO	Listening on port 40569
+1631391423637	Marionette	WARN	TLS certificate errors will be ignored for this session
+1631391452727	Marionette	INFO	Stopped listening on port 40569
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631391507608	geckodriver	INFO	Listening on 127.0.0.1:48213
+1631391507611	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileIbLl6Y"
+1631391508060	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIbLl6Y/search.json.mozlz4", (void 0)))
+1631391509477	Marionette	INFO	Listening on port 39997
+1631391509545	Marionette	WARN	TLS certificate errors will be ignored for this session
+1631391629908	Marionette	INFO	Stopped listening on port 39997
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631391634727	geckodriver	INFO	Listening on 127.0.0.1:42219
+1631391634729	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletlVIiy"
+1631391635158	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletlVIiy/search.json.mozlz4", (void 0)))
+1631391636588	Marionette	INFO	Listening on port 33341
+1631391636643	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://federation.net.ucf.edu/adfs/ls/?SAMLRequest=lVJhixMxEP0rS77vJpv2zmtoC%2FWKWDi1XKsf%2FCLTZNYGssmaSdT796a7J55%2BKAiBkJd5b948ZknQu0Ftcjr7R%2FyWkVL1s3ee1PixYjl6FYAsKQ89kkpaHTbvHpRshBpiSEEHx15QrjOACGOywbNqt12xL0bo0wzkrMOFXICY3bYgbhDuXok7eWPMrdS6nc8XiIJVnzBSYa5YESp0oow7Twl8KpCQbS0WddsepVDlzOVnVm3LNNZDGlnnlAZSnHdoMI5Y4zE1WXcNmszBdMQdcVZtfnu8D55yj%2FGA8bvV%2BPHx4Y%2BKsycomTU69PwyNu%2BDyQ6b4TxMb5puWYOmCR2i9V%2BfahpYtX8O7rX1poDXMztNRaTeHo%2F7ev%2FhcGTr5UVbjRnE9f946jGBgQT%2FWFryl4LLaSneFyu77T44q5%2BqNyH2kK47vSDW1N1YqlIETxZ9KpE6F37cR4SEK5ZiRsbXU8u%2FV2%2F9Cw%3D%3D&RelayState=https%3A%2F%2Flibauth.com%2Fsaml%2Fmodule.php%2Fcore%2Fauthenticate.php%3Fas%3Dspringy-sp, line 701: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1631391660920	Marionette	INFO	Stopped listening on port 33341
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631391663196	geckodriver	INFO	Listening on 127.0.0.1:53133
+1631391663199	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePnKxlu"
+1631391663685	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePnKxlu/search.json.mozlz4", (void 0)))
+1631391665078	Marionette	INFO	Listening on port 40457
+1631391665113	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://federation.net.ucf.edu/adfs/ls/?SAMLRequest=lVLBbtswDP0VQ3dbltMumZAEyBoMC9BuQZP1sMsgS%2FQiQJZckWrXv59ib1i3Q4CeCD7xPT0%2BcImqd4PcJDr5e3hMgFT87J1HOT6sWIpeBoUWpVc9oCQtD5u7W9lUtRxioKCDY68olxkKESLZ4Fmx267Y9wXMFvNZ23Xm2igxX8z0rBUgQM873YpF806Y9vqq6a40Kx4gYmauWBbKdMQEO4%2BkPGWobkRZvy%2BFODa1bIQU9TdWbPM21isaWSeiASXnHRiII1Z5oCrprgKTuDIdcoecFZs%2FHm%2BCx9RDPEB8shq%2B3t%2F%2BVXG2VTmzSoeen9fmfTDJQTWchqnHqTal0jihQ7T%2Bx0uJAyv2v4P7YL3J4OXM2mkI5afjcV%2FuvxyObL08a8sxg7h%2Bi6ceSBlF6j9LS%2F5acDkdxedsZbfdB2f1S%2FExxF7RZadnxJqyG0clReXRgqccqXPh%2BSaCIlgxigkYX09f%2Fnt6618%3D&RelayState=https%3A%2F%2Flibauth.com%2Fsaml%2Fmodule.php%2Fcore%2Fauthenticate.php%3Fas%3Dspringy-sp, line 701: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1631391691673	Marionette	INFO	Stopped listening on port 40457
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631391799501	geckodriver	INFO	Listening on 127.0.0.1:47999
+1631391799504	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewcziNn"
+1631391799946	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewcziNn/search.json.mozlz4", (void 0)))
+1631391801525	Marionette	INFO	Listening on port 35185
+1631391801624	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://federation.net.ucf.edu/adfs/ls/?SAMLRequest=lVLLbtswEPwVgXeJevhREbYBJ0YQA2lrxG4PuQQUtaoJUKTKXbbN35eWUjTtwUBOix3uDGcHu0LZm0FsA53tI3wPgJT86o1FMT6sWfBWOIkahZU9oCAljtuPD6LMcjF4R045w95QrjMkInjSzrJkv1uzZ1XJqmtn3Xy2%2FKCahSpKWeRQL%2Bv5vOsWi6pezqtmlpd1w5Kv4DEy1ywKRTpigL1FkpYilJdFmtdpUZzKXJSVKJdPLNnFbbSVNLLORAMKzjtowY9YZoGyoLoM2sBl2yE3yFmy%2FePx1lkMPfgj%2BB9awZfHh78qRjcyZpYp1%2FPL2rx3bTCQDedh6nGqZSoVTujgtf32kuLAksNrcDfathG8nlkzDaG4P50O6eHz8cQ2q4u2GDPwm%2Fd46oFkK0n%2BZ2nF3wqupqP4FK3sdwdntHpJ7pzvJV13ekF0m3bjqCAvLWqwFCM1xv289SAJ1ox8AMY305f%2Fnt7mNw%3D%3D&RelayState=https%3A%2F%2Flibauth.com%2Fsaml%2Fmodule.php%2Fcore%2Fauthenticate.php%3Fas%3Dspringy-sp, line 701: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://federation.net.ucf.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://federation.net.ucf.edu"
+JavaScript warning: https://federation.net.ucf.edu/adfs/ls/?SAMLRequest=lVLLbtswEPwVgXeJevhREbYBJ0YQA2lrxG4PuQQUtaoJUKTKXbbN35eWUjTtwUBOix3uDGcHu0LZm0FsA53tI3wPgJT86o1FMT6sWfBWOIkahZU9oCAljtuPD6LMcjF4R045w95QrjMkInjSzrJkv1uzZ1XJqmtn3Xy2%2FKCahSpKWeRQL%2Bv5vOsWi6pezqtmlpd1w5Kv4DEy1ywKRTpigL1FkpYilJdFmtdpUZzKXJSVKJdPLNnFbbSVNLLORAMKzjtowY9YZoGyoLoM2sBl2yE3yFmy%2FePx1lkMPfgj%2BB9awZfHh78qRjcyZpYp1%2FPL2rx3bTCQDedh6nGqZSoVTujgtf32kuLAksNrcDfathG8nlkzDaG4P50O6eHz8cQ2q4u2GDPwm%2Fd46oFkK0n%2BZ2nF3wqupqP4FK3sdwdntHpJ7pzvJV13ekF0m3bjqCAvLWqwFCM1xv289SAJ1ox8AMY305f%2Fnt7mNw%3D%3D&RelayState=https%3A%2F%2Flibauth.com%2Fsaml%2Fmodule.php%2Fcore%2Fauthenticate.php%3Fas%3Dspringy-sp, line 701: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://federation.net.ucf.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://federation.net.ucf.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://federation.net.ucf.edu"
+1631391940445	Marionette	INFO	Stopped listening on port 35185
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631391943101	geckodriver	INFO	Listening on 127.0.0.1:55467
+1631391943103	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaIEPoO"
+1631391943542	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaIEPoO/search.json.mozlz4", (void 0)))
+1631391944993	Marionette	INFO	Listening on port 33223
+1631391945017	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://federation.net.ucf.edu/adfs/ls/?SAMLRequest=lVLBjtMwEP2VyPfESdqUXautVLZCVFqg2hYOe0ETe0otJXbwjIH9e9xkEQuHSnsazfO85zdPsyTou0FtIp%2FdA36PSJz96jtHanxYiRic8kCWlIMeSbFWh82He1UXpRqCZ699J15QrjOACANb70S2267E1%2FmsMVqDgVkNbWnqxaydVZW%2BuYFbnDdvoKmbxbxZtHohsi8YKDFXIgklOlHEnSMGxwkq6yovb%2FOqOtalqhvVlI8i26ZtrAMeWWfmgZSUJzQYRqxwyEXUpwJNlGBOJDuSItv88XjnHcUewwHDD6vx88P9X5XOtpAyK7Tv5WVt2XsTOyyG8zD1NNU6B00TOgTrvj3lNIhs%2FxzcW%2BtMAq9n1k5DpN4fj%2Ft8%2F%2BlwFOvlRVuNGYT1azz1yClthv8sLeVLweV0FB%2BTld127zurn7J3PvTA151eEGvy0ziqOIAji45TpF3nf94FBMaV4BBRyPX05b%2Bnt%2F4N&RelayState=https%3A%2F%2Flibauth.com%2Fsaml%2Fmodule.php%2Fcore%2Fauthenticate.php%3Fas%3Dspringy-sp, line 701: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://federation.net.ucf.edu"
+JavaScript warning: https://federation.net.ucf.edu/adfs/ls/?SAMLRequest=lVLBjtMwEP2VyPfESdqUXautVLZCVFqg2hYOe0ETe0otJXbwjIH9e9xkEQuHSnsazfO85zdPsyTou0FtIp%2FdA36PSJz96jtHanxYiRic8kCWlIMeSbFWh82He1UXpRqCZ699J15QrjOACANb70S2267E1%2FmsMVqDgVkNbWnqxaydVZW%2BuYFbnDdvoKmbxbxZtHohsi8YKDFXIgklOlHEnSMGxwkq6yovb%2FOqOtalqhvVlI8i26ZtrAMeWWfmgZSUJzQYRqxwyEXUpwJNlGBOJDuSItv88XjnHcUewwHDD6vx88P9X5XOtpAyK7Tv5WVt2XsTOyyG8zD1NNU6B00TOgTrvj3lNIhs%2FxzcW%2BtMAq9n1k5DpN4fj%2Ft8%2F%2BlwFOvlRVuNGYT1azz1yClthv8sLeVLweV0FB%2BTld127zurn7J3PvTA151eEGvy0ziqOIAji45TpF3nf94FBMaV4BBRyPX05b%2Bnt%2F4N&RelayState=https%3A%2F%2Flibauth.com%2Fsaml%2Fmodule.php%2Fcore%2Fauthenticate.php%3Fas%3Dspringy-sp, line 701: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1631392014454	Marionette	INFO	Stopped listening on port 33223
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631392017815	geckodriver	INFO	Listening on 127.0.0.1:42935
+1631392017818	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDdAIoB"
+1631392018263	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDdAIoB/search.json.mozlz4", (void 0)))
+1631392019638	Marionette	INFO	Listening on port 37345
+1631392019731	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://federation.net.ucf.edu/adfs/ls/?SAMLRequest=lVLBjtMwEP2VyPfEbtIqrdVWKlutttIC1bbLgQty4jG1lNjBMwb273ETELscKnEazfO85zdPs0bVd4PcRbq4J%2FgWASn72XcO5fiwYTE46RValE71gJJaedq9f5RlIeQQPPnWd%2BwV5TZDIUIg6x3LDvsN%2B6KbRVvNwYhl3YhKrERdV8uZ0XpVmfnCaLOaLxtTL0XFsk8QMDE3LAklOmKEg0NSjhIkylkuVvlsdi6FLGspFp9Ztk%2FbWKdoZF2IBpScG9AQRqxwQEVsTQE6cqUN8g45y3Z%2FPN55h7GHcILw3bbw%2FPT4V6WzjUqZFa3v%2BXVt3nsdOyiGyzD1ONUyVy1O6BCs%2B%2FqS48Cy4%2B%2Fg3lmnE3g7s2YaQvlwPh%2Fz48fTmW3XV205ZhC2%2F%2BOpB1JakfrH0pq%2FFlxPR%2FEhWTnsj76z7Ut270Ov6LbTK2J1bsZRSUE5tOAoRdp1%2FsddAEWwYRQiML6dvnx7ettf&RelayState=https%3A%2F%2Flibauth.com%2Fsaml%2Fmodule.php%2Fcore%2Fauthenticate.php%3Fas%3Dspringy-sp, line 701: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1631392033847	Marionette	INFO	Stopped listening on port 37345
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631392054851	geckodriver	INFO	Listening on 127.0.0.1:57167
+1631392054854	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRexAst"
+1631392055301	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRexAst/search.json.mozlz4", (void 0)))
+1631392056757	Marionette	INFO	Listening on port 46377
+1631392056868	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://federation.net.ucf.edu/adfs/ls/?SAMLRequest=lVJdb9swDPwrht79IbdNWiEJkDUoFqDbgibbQ18KWqYbAbLkidS2%2Fvspdod1ewjQJ4In3ul44IKgt4NaRz66B%2FwekTj71VtHanxYihic8kCGlIMeSbFW%2B%2FWne1UXlRqCZ6%2B9FW8o5xlAhIGNdyLbbpbiqWn0bDa7rKRs5fWV1tDN51UjG4nQVTfz2UUHDcjrDq9E9g0DJeZSJKFEJ4q4dcTgOEFVLfPqJpfyUFeqnqvL%2BlFkm7SNccAj68g8kCrLDlsMI1Y45CLqrsA2ltB2VFoqRbb%2B4%2FHWO4o9hj2GH0bj14f7vyrWNJAyK7Tvy9PaZe%2FbaLEYjsPU01TrHDRN6BCMe37JaRDZ7jW4D8a1CTyfWTMNkfp4OOzy3Zf9QawWJ201ZhBW7%2FHUI0MLDP9ZWpRvBRfTUXxOVrabnbdGv2R3PvTA552eENPm3TiqOIAjg45TpNb6n7cBgXEpOEQU5Wr68t%2FTW%2F0G&RelayState=https%3A%2F%2Flibauth.com%2Fsaml%2Fmodule.php%2Fcore%2Fauthenticate.php%3Fas%3Dspringy-sp, line 701: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://federation.net.ucf.edu"
+JavaScript warning: https://federation.net.ucf.edu/adfs/ls/?SAMLRequest=lVJdb9swDPwrht79IbdNWiEJkDUoFqDbgibbQ18KWqYbAbLkidS2%2Fvspdod1ewjQJ4In3ul44IKgt4NaRz66B%2FwekTj71VtHanxYihic8kCGlIMeSbFW%2B%2FWne1UXlRqCZ6%2B9FW8o5xlAhIGNdyLbbpbiqWn0bDa7rKRs5fWV1tDN51UjG4nQVTfz2UUHDcjrDq9E9g0DJeZSJKFEJ4q4dcTgOEFVLfPqJpfyUFeqnqvL%2BlFkm7SNccAj68g8kCrLDlsMI1Y45CLqrsA2ltB2VFoqRbb%2B4%2FHWO4o9hj2GH0bj14f7vyrWNJAyK7Tvy9PaZe%2FbaLEYjsPU01TrHDRN6BCMe37JaRDZ7jW4D8a1CTyfWTMNkfp4OOzy3Zf9QawWJ201ZhBW7%2FHUI0MLDP9ZWpRvBRfTUXxOVrabnbdGv2R3PvTA552eENPm3TiqOIAjg45TpNb6n7cBgXEpOEQU5Wr68t%2FTW%2F0G&RelayState=https%3A%2F%2Flibauth.com%2Fsaml%2Fmodule.php%2Fcore%2Fauthenticate.php%3Fas%3Dspringy-sp, line 701: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1631392078900	Marionette	INFO	Stopped listening on port 46377
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631392180951	geckodriver	INFO	Listening on 127.0.0.1:34577
+1631392180954	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilez5vOB2"
+1631392181377	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilez5vOB2/search.json.mozlz4", (void 0)))
+1631392182843	Marionette	INFO	Listening on port 44859
+1631392182868	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://federation.net.ucf.edu/adfs/ls/?SAMLRequest=lVLLbtswEPwVgXeJlpLAFmEbcGMUNZC2Ruzk0EvBxyomQJEqd9k2f19aapHHwUBPix3uDGcHu0TZu0FsEp38PfxIgFT87p1HMT6sWIpeBIkWhZc9oCAtDpvPd6KpZmKIgYIOjr2iXGZIRIhkg2fFbrti32%2Fadj6f13V9peFam1YtQKkOupumlosrpbVqtQJlTM2KR4iYmSuWhTIdMcHOI0lPGZo1dTlry7o%2BNjPRtOJ68Y0V27yN9ZJG1oloQMF5BwbiiFUeqEq6q8AkLk2H3CFnxeafx9vgMfUQDxB%2FWg0P93cvKs4qmTOrdOj5eW3eB5McVMNpmHqcalNKjRM6ROufnkscWLH%2FG9wH600GL2empiEUn47Hfbn%2Fejiy9fKsLcYM4vp%2FPPVA0kiS7ywt%2BWvB5XQUX7KV3XYfnNXPxccQe0mXnZ4Ra8puHBUUpUcLnnKkzoVftxEkwYpRTMD4evry7emt%2FwA%3D&RelayState=https%3A%2F%2Flibauth.com%2Fsaml%2Fmodule.php%2Fcore%2Fauthenticate.php%3Fas%3Dspringy-sp, line 701: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1631392226286	Marionette	INFO	Stopped listening on port 44859
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631392229787	geckodriver	INFO	Listening on 127.0.0.1:59363
+1631392229790	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWhlEoV"
+1631392230222	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWhlEoV/search.json.mozlz4", (void 0)))
+1631392231519	Marionette	INFO	Listening on port 37541
+1631392231613	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://federation.net.ucf.edu/adfs/ls/?SAMLRequest=lVJdi9swEPwrRu%2B2bF%2B%2BTiSB9EK5wLUNSdqHvhRZWjcCWfJpV73ev69iX7nrPQQKAqHRzuzssEuUne3FJtLZHeAxAlL2u7MOxfCxYjE44SUaFE52gIKUOG4%2BPYi6KEUfPHnlLXtDuc6QiBDIeMey3XbFfkwmN7rVi1KrVuvFtJ1U7bzSs0bNq1nTTOu5bKazWwkLxbJvEDAxVywJJTpihJ1Dko4SVNZVXt7mVXWqS3GTzuw7y7ZpGuMkDawzUY%2BC8xY0hAErHFARVVuAjlzqFrlFzrLNX4933mHsIBwh%2FDIKvh4eXlWsaWTKrFC%2B45exeed1tFD0535843jXuVQ4on0w7udzjj3L9i%2FBfTBOJ%2FB6Zs1YhOL%2BdNrn%2By%2FHE1svL9piyCCs%2F8dTByS1JPnO0pK%2FFVyOS%2FE5Wdlt994a9Zx99KGTdN3pBTE6b4dSQUE6NOAoRWqtf7oLIAlWjEIExtdjy39Xb%2F0H&RelayState=https%3A%2F%2Flibauth.com%2Fsaml%2Fmodule.php%2Fcore%2Fauthenticate.php%3Fas%3Dspringy-sp, line 701: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://federation.net.ucf.edu"
+JavaScript warning: https://federation.net.ucf.edu/adfs/ls/?SAMLRequest=lVJdi9swEPwrRu%2B2bF%2B%2BTiSB9EK5wLUNSdqHvhRZWjcCWfJpV73ev69iX7nrPQQKAqHRzuzssEuUne3FJtLZHeAxAlL2u7MOxfCxYjE44SUaFE52gIKUOG4%2BPYi6KEUfPHnlLXtDuc6QiBDIeMey3XbFfkwmN7rVi1KrVuvFtJ1U7bzSs0bNq1nTTOu5bKazWwkLxbJvEDAxVywJJTpihJ1Dko4SVNZVXt7mVXWqS3GTzuw7y7ZpGuMkDawzUY%2BC8xY0hAErHFARVVuAjlzqFrlFzrLNX4933mHsIBwh%2FDIKvh4eXlWsaWTKrFC%2B45exeed1tFD0535843jXuVQ4on0w7udzjj3L9i%2FBfTBOJ%2FB6Zs1YhOL%2BdNrn%2By%2FHE1svL9piyCCs%2F8dTByS1JPnO0pK%2FFVyOS%2FE5Wdlt994a9Zx99KGTdN3pBTE6b4dSQUE6NOAoRWqtf7oLIAlWjEIExtdjy39Xb%2F0H&RelayState=https%3A%2F%2Flibauth.com%2Fsaml%2Fmodule.php%2Fcore%2Fauthenticate.php%3Fas%3Dspringy-sp, line 701: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1631392365746	Marionette	INFO	Stopped listening on port 37541
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631392368521	geckodriver	INFO	Listening on 127.0.0.1:52141
+1631392368523	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3djf2X"
+1631392368964	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3djf2X/search.json.mozlz4", (void 0)))
+1631392370262	Marionette	INFO	Listening on port 45825
+1631392370337	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://federation.net.ucf.edu/adfs/ls/?SAMLRequest=lVLBbtswDP0VQ3dbjjsnsZAESBsUC9BuQZPt0EvB2nQjQJY8kerWv59id2i7Q4CeCD7xPT0%2BcEHQmV6tAx%2FtHf4KSJz86YwlNTwsRfBWOSBNykKHpLhW%2B%2FXtjSqyXPXesaudEe8o5xlAhJ61syLZbpbioZ1fzL7keQntbF5V5XQyhVk1L7Gom7aAYl5NK8QpVnkukp%2FoKTKXIgpFOlHArSUGyxHKi0maV%2BlkcihydVGosrwXySZuoy3wwDoy96SkbLFBP2CZRc5C3WbYBAlNS9KQFMn6n8crZyl06Pfon3WNP%2B5u3lSMfoSYWVa7Tp7Wlp1rgsGsP%2FZjT2MtUqhpRHuv7dNLSr1Idq%2FBXWrbRPB8Zo%2FjEKmvh8Mu3X3fH8RqcdJWQwZ%2B9RlPHTI0wPCfpYV8L7gYj%2BJbtLLd7JzR9Uty7XwHfN7pCdFN2g6jij1Y0mg5RmqM%2B33lERiXgn1AIVfjlx9Pb%2FUX&RelayState=https%3A%2F%2Flibauth.com%2Fsaml%2Fmodule.php%2Fcore%2Fauthenticate.php%3Fas%3Dspringy-sp, line 701: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1631392429392	Marionette	INFO	Stopped listening on port 45825
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631392432499	geckodriver	INFO	Listening on 127.0.0.1:44963
+1631392432502	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1A8JYr"
+1631392432946	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1A8JYr/search.json.mozlz4", (void 0)))
+1631392434292	Marionette	INFO	Listening on port 46005
+1631392434320	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://federation.net.ucf.edu/adfs/ls/?SAMLRequest=lVJNr9MwEPwrke%2BJ86F%2BxGorlVchKj2gei0cuKBNsqGWHDt418D797gJiAeHSpxWO94Zz452QzCYUe0DX%2B0Tfg1InPwYjCU1PWxF8FY5IE3KwoCkuFXn%2FdtHVWa5Gr1j1zojXlDuM4AIPWtnRXI8bMXnddP2Nax6XJb1crGq10XdVMW6quqqaABWzWJZrZvVYpmL5CN6isytiEKRThTwaInBcoTyskjzOi2KS5mrqlKL%2BpNIDnEbbYEn1pV5JCVljx36CcsschbaPsMuSOh6koakSPa%2FPT44S2FAf0b%2FTbf44enxj4rRDcTMstYN8ra2HFwXDGbjdZx7mmuZQkszOnptvzynNIrk9Cu4V9p2EbyfWTMPkXpzuZzS0%2FvzRew2N201ZeB3%2F%2BNpQIYOGP6xtJEvBTfzUbyLVo6HkzO6fU5eOz8A33d6Q3SX9tOoYg%2BWNFqOkRrjvj94BMatYB9QyN385d%2Bnt%2FsJ&RelayState=https%3A%2F%2Flibauth.com%2Fsaml%2Fmodule.php%2Fcore%2Fauthenticate.php%3Fas%3Dspringy-sp, line 701: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1631392452134	geckodriver	INFO	Listening on 127.0.0.1:59847
+1631392452137	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZsJneq"
+1631392452579	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZsJneq/search.json.mozlz4", (void 0)))
+1631392454440	Marionette	INFO	Listening on port 33945
+1631392454455	Marionette	WARN	TLS certificate errors will be ignored for this session
+1631392455319	Marionette	INFO	Stopped listening on port 46005
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1631392474088	geckodriver	INFO	Listening on 127.0.0.1:45029
+1631392474090	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8eejpO"
+1631392474520	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8eejpO/search.json.mozlz4", (void 0)))
+1631392475988	Marionette	INFO	Listening on port 33989
+1631392476005	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://federation.net.ucf.edu/adfs/ls/?SAMLRequest=lVLLTsMwEPyVyPfESVpIa7WVSitEJR4VLRy4IDfZUEuOHbxrHn%2BPm4B4HCpxsj3emZ0d7QRlo1sx97Q3t%2FDsASl6a7RB0X1MmXdGWIkKhZENoKBSbOZXlyJPUtE6S7a0mv2gHGdIRHCkrGHRajlljwNIoYbBqB7nRVHswiUtdqmsRicndXE6LgKeDkZ5meUsugeHgTllQSjQET2sDJI0FKA0z%2BJ0HGfZNk%2FFYCiG2QOLlmEaZSR1rD1Ri4LzGipwHZYYoMSXdQKV57KqkWvkLJp%2FeVxYg74BtwH3okq4u738VtFqJ0NmSWkbfhibN7byGpJ23%2FZv7M88liX2aOuUeXqPsWXR%2BjO4M2WqAB7PbNcXobjYbtfx%2BmazZbPJQVt0GbjZfzw1QLKSJP9YmvCfgpN%2BKa6DldVybbUq36Nz6xpJx50eEFXFdVcqyEmDCgyFSLW2rwsHkmDKyHlgfNa3%2FL16sw8%3D&RelayState=https%3A%2F%2Flibauth.com%2Fsaml%2Fmodule.php%2Fcore%2Fauthenticate.php%3Fas%3Dspringy-sp, line 701: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://ucf.libcal.com"
+1631392798687	Marionette	INFO	Stopped listening on port 33989
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631392802694	geckodriver	INFO	Listening on 127.0.0.1:55281
+1631392802696	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileV00Kkh"
+1631392803134	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileV00Kkh/search.json.mozlz4", (void 0)))
+1631392804558	Marionette	INFO	Listening on port 34309
+1631392804610	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://federation.net.ucf.edu/adfs/ls/?SAMLRequest=lVLBjtMwEP2VyPfEiUvZ1morla1WW2mBals4cEGOPdlacuzgGQP797gJKxYOlTiN5nne85unWaHq3SC3ic7%2BEb4lQCp%2B9s6jHB%2FWLEUvg0KL0qseUJKWx%2B37BymqWg4xUNDBsVeU6wyFCJFs8KzY79bsazMzwkCr9FyI2WIhbhY389nbVnfLZtGItmuW0M3qpWnnrPgMETNzzbJQpiMm2Hsk5SlDtWjKelk2zUnU8k0tm%2FoLK3Z5G%2BsVjawz0YCS8w4MxBGrPFCVdFeBSVyZDrlDzorti8fb4DH1EI8Qv1sNnx4f%2Fqg426qcWaVDzy9r8z6Y5KAazsPU41RFqTRO6BCtf3oucWDF4Xdw76w3GbyeWTsNobw%2FnQ7l4ePxxDari7YcM4ib%2F%2FHUAymjSP1jacVfC66mo%2FiQrex3h%2BCsfi7uQuwVXXd6Qawpu3FUUlQeLXjKkToXftxGUARrRjEB45vpy79Pb%2FML&RelayState=https%3A%2F%2Flibauth.com%2Fsaml%2Fmodule.php%2Fcore%2Fauthenticate.php%3Fas%3Dspringy-sp, line 701: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1631395305458	Marionette	INFO	Stopped listening on port 34309
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631401903279	geckodriver	INFO	Listening on 127.0.0.1:38247
+1631401903282	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileS3QXQn"
+1631401903736	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileS3QXQn/search.json.mozlz4", (void 0)))
+1631401905214	Marionette	INFO	Listening on port 43321
+1631401905296	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1631402651968	geckodriver	INFO	Listening on 127.0.0.1:47599
+1631402651970	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDN3k4h"
+1631402652421	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDN3k4h/search.json.mozlz4", (void 0)))
+1631402653776	Marionette	INFO	Listening on port 32913
+1631402653886	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://federation.net.ucf.edu/adfs/ls/?SAMLRequest=lVJdb9swDPwrht79naaxkARIGwwL0G5Bk%2B1hLwNtMYsAWfJEqlv%2F%2FRR7xbo9BNgTwRPvdDxwSdCbQW4Cn%2B0Tfg9InPzsjSU5PqxE8FY6IE3SQo8kuZOHzeODrLJCDt6x65wRbyjXGUCEnrWzItltV%2BJrW89gPse6aAHaxfymVN2iua2rRXnTNrNiflsvmgqVaiqRfEZPkbkSUSjSiQLuLDFYjlBRlWnRpGV5rGpZzWTZfBHJNm6jLfDIOjMPJPP8hAr9iGUWOQvdKUMVclAnyg3lItm8erx3lkKP%2FoD%2BWXf46enhj4rRLcTMss71%2BWXtvHcqGMyG8zD1NNUqhY4mdPDafntJaRDJ%2Fndwd9qqCF7PrJ2GSL4%2FHvfp%2FuPhKNbLi7YcM%2FDr%2F%2FHUI4MChn8sLfO3gsvpKD5EK7vt3hndvSTvnO%2BBrzu9IFqlp3FUsgdLGi3HSI1xP%2B49AuNKsA8o8vX05d%2Bnt%2F4F&RelayState=https%3A%2F%2Flibauth.com%2Fsaml%2Fmodule.php%2Fcore%2Fauthenticate.php%3Fas%3Dspringy-sp, line 701: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1631402669951	Marionette	INFO	Stopped listening on port 32913
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631403143678	geckodriver	INFO	Listening on 127.0.0.1:52927
+1631403143680	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUwnWMz"
+1631403144107	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUwnWMz/search.json.mozlz4", (void 0)))
+1631403145418	Marionette	INFO	Listening on port 40561
+1631403145502	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://federation.net.ucf.edu/adfs/ls/?SAMLRequest=lVLLbtswEPwVgXeJtJT6QdgGnBhFDaStEbs99BLQ5ComQJEqd9k2f19aStC0BwM9LXa4M5wd7BJV53q5SXT2D%2FA9AVLxq3Me5fCwYil6GRRalF51gJK0PGw%2B3su6ErKPgYIOjr2hXGcoRIhkg2fFbrtij9OmVY3S7UzXdSNOMDNmPltM1RwWcCOauQBRz2%2FeTbVgxVeImJkrloUyHTHBziMpTxkS9aQUi3IyOdaNbGrZiG%2Bs2OZtrFc0sM5EPUrOWzAQB6zyQFXSbQUmcWVa5A45KzavHu%2BCx9RBPED8YTV8ebj%2Fo%2BLsSeXMKh06flmbd8EkB1V%2F7scex1qXSuOI9tH6p%2BcSe1bsX4K7td5k8Hpmp3EI5YfjcV%2FuPx%2BObL28aMshg7j%2BH08dkDKK1D%2BWlvyt4HI8ik%2FZym67D87q5%2BJ9iJ2i604viDVlO4xKisqjBU85UufCz7sIimDFKCZgfD1%2B%2BffprX8D&RelayState=https%3A%2F%2Flibauth.com%2Fsaml%2Fmodule.php%2Fcore%2Fauthenticate.php%3Fas%3Dspringy-sp, line 701: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1631403170747	Marionette	INFO	Stopped listening on port 40561
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631419250156	geckodriver	INFO	Listening on 127.0.0.1:49793
+1631419250159	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexW68v7"
+1631419250685	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexW68v7/search.json.mozlz4", (void 0)))
+1631419252218	Marionette	INFO	Listening on port 39097
+1631419252273	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://federation.net.ucf.edu/adfs/ls/?SAMLRequest=lVLBbtswDP0VQ3dbktvMjZAESBsMC9BtQZPtsEuhSHQjQJY8kd7Wv59it1i3Q4CdCD7xPT0%2BcIG6871aD3QKD%2FB9AKTiV%2BcDqvFhyYYUVNToUAXdASoyar%2F%2BeK%2FqSqg%2BRYomevaGcpmhESGRi4EV282SPTZGGpD6upE39ghg2hsxa%2BRcvJu1NYj6an5sGyvtlZSs%2BAoJM3PJslCmIw6wDUg6UIZELUsxL2V9ENdKCDVrvrFik7dxQdPIOhH1qDhvwUIasSoAVYNpK7AD17ZF7pGzYv3q8S4GHDpIe0g%2FnIEvD%2Fd%2FVLw76pxZZWLHz2vzLtrBQ9Wf%2BqnHqdalNjihfXLh6bnEnhW7l%2BBuXbAZvJzZcRpC9eFw2JW7z%2FsDWy3O2mrMIK3%2Bx1MHpK0m%2FY%2BlBX8ruJiO4lO2st3sonfmuXgfU6fpstMz4mzZjqOKkg7oIFCO1Pv48y6BJlgySgMwvpq%2B%2FPv0Vr8B&RelayState=https%3A%2F%2Flibauth.com%2Fsaml%2Fmodule.php%2Fcore%2Fauthenticate.php%3Fas%3Dspringy-sp, line 701: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1631419275021	Marionette	INFO	Stopped listening on port 39097
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+1631469022937	geckodriver	INFO	Listening on 127.0.0.1:46439
+1631469022947	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqB3PHL"
+1631469023697	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqB3PHL/search.json.mozlz4", (void 0)))
+1631469025024	Marionette	INFO	Listening on port 37195
+1631469025078	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1631469036767	Marionette	INFO	Stopped listening on port 37195
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631469061171	geckodriver	INFO	Listening on 127.0.0.1:52013
+1631469061174	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevOW3ZX"
+Unable to init server: Could not connect: Connection refused
+Error: cannot open display: :0
+1631469115513	geckodriver	INFO	Listening on 127.0.0.1:57701
+1631469115515	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZ5njC9"
+1631469116315	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZ5njC9/search.json.mozlz4", (void 0)))
+1631469117368	Marionette	INFO	Listening on port 33319
+1631469117438	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1631469241357	geckodriver	INFO	Listening on 127.0.0.1:33821
+1631469241359	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebGzKFQ"
+Unable to init server: Could not connect: Connection refused
+Error: cannot open display: :0
+===========================================================================================================================================================================================
+1631469657488	geckodriver	INFO	Listening on 127.0.0.1:36137
+1631469657490	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebIjV3e"
+1631469658252	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebIjV3e/search.json.mozlz4", (void 0)))
+1631469659232	Marionette	INFO	Listening on port 41873
+1631469659304	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1631469669339	Marionette	INFO	Stopped listening on port 41873
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631469698357	geckodriver	INFO	Listening on 127.0.0.1:52759
+1631469698360	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewLgvsL"
+1631469699145	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewLgvsL/search.json.mozlz4", (void 0)))
+1631469700208	Marionette	INFO	Listening on port 36509
+1631469700277	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1631469710332	Marionette	INFO	Stopped listening on port 36509
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631470321910	geckodriver	INFO	Listening on 127.0.0.1:58023
+1631470321913	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileR3Lbvv"
+*** You are running in headless mode.
+1631470322333	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileR3Lbvv/search.json.mozlz4", (void 0)))
+1631470323050	Marionette	INFO	Listening on port 38837
+1631470323133	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1631470333147	Marionette	INFO	Stopped listening on port 38837
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002F,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
