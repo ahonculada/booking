@@ -559,7 +559,6 @@ Exiting due to channel error.
 1631469241359	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebGzKFQ"
 Unable to init server: Could not connect: Connection refused
 Error: cannot open display: :0
-===========================================================================================================================================================================================
 1631469657488	geckodriver	INFO	Listening on 127.0.0.1:36137
 1631469657490	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebIjV3e"
 1631469658252	Marionette	INFO	Marionette enabled
@@ -624,4 +623,5 @@ JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILU
 
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+===========================================================================================================================================================================================
 
