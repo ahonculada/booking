@@ -6,7 +6,7 @@ from selenium.webdriver.firefox.options import Options
 
 opt = Options()
 opt.headless = True
-driver = webdriver.Firefox(options=opt)
+driver = webdriver.Firefox(options=opt, log_path='/tmp')
 driver.get('https://ucf.libcal.com/r/accessible?lid=2824&gid=4779')
 location = Select(driver.find_element_by_id('s-lc-location'))
 location.select_by_index(1)
@@ -24,7 +24,7 @@ show_avail_button = driver.find_element_by_id('s-lc-submit-filters')
 show_avail_button.click()
 
 checkboxes = driver.find_elements_by_class_name('booking-checkbox')
-start = 8
+start = 7
 stop = start + 8
 for i in range(start,len(checkboxes)):
     if i == stop:
