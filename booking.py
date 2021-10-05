@@ -4,6 +4,12 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.firefox.options import Options
 
+with open("./secrets/password.txt", "r") as file:
+    Lines = file.readlines()
+
+username = Lines[0].strip()
+password = Lines[1].strip()
+
 opt = Options()
 opt.headless = True
 driver = webdriver.Firefox(options=opt, log_path='/tmp')
@@ -38,10 +44,10 @@ submit_button.click()
 time.sleep(3)
 
 username = driver.find_element_by_name('UserName')
-username.send_keys('aa479201')
+username.send_keys(username)
 
 password = driver.find_element_by_name('Password')
-password.send_keys('C0mputerV1$ion7')
+password.send_keys(password)
 
 sign_on_button = driver.find_element_by_id('submitButton')
 sign_on_button.click()
