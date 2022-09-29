@@ -12,41 +12,17 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from webdriver_manager.chrome import ChromeDriverManager
 
+# Parse a .env file in the local directory and then load all the variables found as environment variables.
 load_dotenv()
 
-
-
+# force the path to be local in this directory no matter where this script is called
 os.chdir(os.path.dirname(__file__))
 
+# using a context manager guarantees we quit out the browser after regardless of whether the program fails
 @contextmanager
 def driver(*args, **kwargs):
     chrome_options = Options()
-    # chrome_options.add_argument('--no-sandbox')
-    # chrome_options.add_argument('--start-maximized')
-    # chrome_options.add_argument('--start-fullscreen')
-    # chrome_options.add_argument('--single-process')
-    # chrome_options.add_argument('--disable-dev-shm-usage')
-    # chrome_options.add_argument("--incognito")
-    # chrome_options.add_argument('--disable-blink-features=AutomationControlled')
-    # chrome_options.add_experimental_option('useAutomationExtension', False)
-    # chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    # chrome_options.add_argument("--headless")
-    # chrome_options.add_argument(f'user-agent={fake_agent}')
-    # chrome_options.add_argument('--ignore-ssl-errors=yes')
-    # chrome_options.add_argument('--ignore-certificate-errors')
-    # chrome_options.add_argument("--disable-infobars")
-    # chrome_options.add_argument("--disable-extensions")
-    # chrome_options.add_argument("--disable-popup-blocking")
-
     d = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options,)
-    # d.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
-    # d.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
-    #     "source":
-    #         "const newProto = navigator.__proto__;"
-    #         "delete newProto.webdriver;"
-    #         "navigator.__proto__ = newProto;"
-    # })
-
     try:
         yield d
     finally:
@@ -55,22 +31,9 @@ def driver(*args, **kwargs):
 class BookingBot:
     def __init__(self, driver) -> None:
         self.driver = driver
-        # self.driver
 
     def run(self):
         self.driver.get(f'https://ucf.libcal.com/r/accessible/availability?lid=2824&gid=4779&zone=0&space=0&capacity=3&accessible=&powered=&date={(date.today() + timedelta(days=7)).strftime("%Y-%m-%d")}')
-
-        # location = Select(self.driver.find_element(By.ID,'s-lc-location'))
-        # location.select_by_index(1)
-
-        # capacity = Select(self.driver.find_element(By.ID,'s-lc-type'))
-        # capacity.select_by_index(3)
-
-        # show_avail_button = self.driver.find_element(By.ID,'s-lc-go')
-        # show_avail_button.click()
-
-        # booking_date = Select(self.driver.find_element(By.ID,'date'))
-        # booking_date.select_by_index(7)
 
         show_avail_button = self.driver.find_element(By.ID,'s-lc-submit-filters')
         show_avail_button.click()
@@ -125,76 +88,21 @@ class BookingBot:
 
         with open('/tmp/test.txt', 'a') as f:
             submitErrors = self.driver.find_element(By.ID, 'submit-errors')
-            print(submitErrors.text)
+            # print(submitErrors.text)
             if submitErrors:
                 f.write('Errors: {}, date: {}.\n'.format(submitErrors.text,datetime.now()))
             else:
                 f.write('Hooray! We booked a room for a week after today, {}.\n'.format(datetime.now()))
-
 
 def main():
     with driver() as wd:
         bot = BookingBot(wd)
         bot.run()
 
-
-
 if __name__ == '__main__':
     if platform.system() == 'Linux':
         main()
     else:
-        print('you need to be running this on a linux machine')
-
-'''
-import os
-import random as rand
-from time import strftime, sleep
-from secrets import Secrets
-from selenium import webdriver
-
-from fake_useragent import FakeUserAgentError, UserAgent
-import concurrent.futures
-import pandas as pd
-
-
-ua = None
-while True:
-    try:
-        ua = UserAgent()
-        break
-    except FakeUserAgentError:
-        print('fake user agent error')
-        continue
-    except Exception:
-        continue
-
-fake_agent = ua.random
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-'''
+        with open('/tmp/test.txt', 'a') as f:
+            f.write('you need to be running this on a linux machine')
+            print('you need to be running this on a linux machine')
