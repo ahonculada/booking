@@ -1,16 +1,16 @@
 import os
-import time
 import platform
+import random
+import time
 from contextlib import contextmanager
 from datetime import date, datetime, timedelta
 
 from dotenv import load_dotenv
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
+from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.support.ui import Select
-from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.firefox import GeckoDriverManager
 
 # Parse a .env file in the local directory and then load all the variables found as environment variables.
 load_dotenv()
@@ -21,8 +21,9 @@ os.chdir(os.path.dirname(__file__))
 # using a context manager guarantees we quit out the browser after regardless of whether the program fails
 @contextmanager
 def driver(*args, **kwargs):
-    chrome_options = Options()
-    d = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options,)
+    firefox_options = webdriver.FirefoxOptions()
+    # firefox_options.set_preference('detach', True)
+    d = webdriver.Firefox(service=Service(GeckoDriverManager().install(), log_path='/tmp/leo_version_booking.log'), options=firefox_options,)
     try:
         yield d
     finally:
@@ -38,20 +39,50 @@ class BookingBot:
         show_avail_button = self.driver.find_element(By.ID,'s-lc-submit-filters')
         show_avail_button.click()
 
-        checkboxes = self.driver.find_elements(By.CLASS_NAME,'booking-checkbox')
-        start = 7
-        stop = start + 8
-        for i in range(start,len(checkboxes)):
-            if i == stop:
-                break
-            time.sleep(1)
-            if checkboxes[i]:
-                checkboxes[i].click()
+        # spaces should be replaced with periods whenever searching a class name in selenium
+        divPanels = self.driver.find_elements(By.CLASS_NAME, 'panel.panel-default')
 
+        print(f'number of panels: {len(divPanels)}')
+
+        for panel in divPanels:
+            print(panel.text)
+            break
+
+        # we know the first panel is room 176 so we greedily pick that
+        checkboxes = divPanels[0].find_elements(By.CLASS_NAME,'booking-checkbox')
+        # for cb in checkboxes:
+        #     print(cb.find_element(By.XPATH, '..').text)
+        # start = 7
+        # stop = start + 8
+        # for i in range(start,len(checkboxes)):
+        #     if i == stop:
+        #         break
+        #     time.sleep(random.uniform(0.1,0.5))
+        #     if checkboxes[i]:
+        #         checkboxes[i].click()
+
+        desiredTimes = set(
+            [
+                '4:30pm - 5:00pm',
+                '5:00pm - 5:30pm',
+                '5:30pm - 6:00pm',
+                '6:00pm - 6:30pm',
+                '6:30pm - 7:00pm',
+                '7:00pm - 7:30pm',
+                '7:30pm - 8:00pm',
+                '8:00pm - 8:30pm'
+            ]
+        )
+        for cb in checkboxes:
+            if cb and cb.find_element(By.XPATH, '..').text.strip() in desiredTimes:
+                cb.click()
+            time.sleep(random.uniform(0.1,0.5))
+        time.sleep(60)
+        return
         submit_button = self.driver.find_element(By.ID,'s-lc-submit-times')
         submit_button.click()
 
-        time.sleep(5)
+        time.sleep(random.uniform(4,5))
 
         # clear the input fields before signing in
         username_input = self.driver.find_element(By.NAME,'UserName')
@@ -65,12 +96,12 @@ class BookingBot:
         sign_on_button = self.driver.find_element(By.ID,'submitButton')
         sign_on_button.click()
 
-        time.sleep(3)
+        time.sleep(random.uniform(2,3))
 
         continue_button = self.driver.find_element(By.NAME,'continue')
         continue_button.click()
 
-        time.sleep(3)
+        time.sleep(random.uniform(2,3))
 
         public_name = self.driver.find_element(By.ID,'nick')
         public_name.send_keys(os.getenv("STUDY_GROUP_NAME"))
@@ -84,7 +115,7 @@ class BookingBot:
         submit_button = self.driver.find_element(By.ID,'s-lc-eq-bform-submit')
         submit_button.click()
 
-        time.sleep(5)
+        time.sleep(random.uniform(4,5))
 
         with open('/tmp/test.txt', 'a') as f:
             submitErrors = self.driver.find_element(By.ID, 'submit-errors')
@@ -103,6 +134,6 @@ if __name__ == '__main__':
     if platform.system() == 'Linux':
         main()
     else:
-        with open('/tmp/test.txt', 'a') as f:
+        with open('leo_version_booking.log', 'a') as f:
             f.write('you need to be running this on a linux machine')
             print('you need to be running this on a linux machine')
