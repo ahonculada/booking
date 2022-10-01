@@ -1,7 +1,7 @@
 import os
 import platform
 import random
-import time
+from time import sleep
 from contextlib import contextmanager
 from datetime import date, datetime, timedelta
 
@@ -57,7 +57,7 @@ class BookingBot:
         # for i in range(start,len(checkboxes)):
         #     if i == stop:
         #         break
-        #     time.sleep(random.uniform(0.1,0.5))
+        #     sleep(random.uniform(0.1,0.5))
         #     if checkboxes[i]:
         #         checkboxes[i].click()
 
@@ -76,13 +76,12 @@ class BookingBot:
         for cb in checkboxes:
             if cb and cb.find_element(By.XPATH, '..').text.strip() in desiredTimes:
                 cb.click()
-            time.sleep(random.uniform(0.1,0.5))
-        time.sleep(60)
-        return
+            sleep(random.uniform(0.1,0.5))
+
         submit_button = self.driver.find_element(By.ID,'s-lc-submit-times')
         submit_button.click()
 
-        time.sleep(random.uniform(4,5))
+        sleep(random.uniform(4,5))
 
         # clear the input fields before signing in
         username_input = self.driver.find_element(By.NAME,'UserName')
@@ -96,12 +95,12 @@ class BookingBot:
         sign_on_button = self.driver.find_element(By.ID,'submitButton')
         sign_on_button.click()
 
-        time.sleep(random.uniform(2,3))
+        sleep(random.uniform(2,3))
 
         continue_button = self.driver.find_element(By.NAME,'continue')
         continue_button.click()
 
-        time.sleep(random.uniform(2,3))
+        sleep(random.uniform(2,3))
 
         public_name = self.driver.find_element(By.ID,'nick')
         public_name.send_keys(os.getenv("STUDY_GROUP_NAME"))
@@ -115,7 +114,7 @@ class BookingBot:
         submit_button = self.driver.find_element(By.ID,'s-lc-eq-bform-submit')
         submit_button.click()
 
-        time.sleep(random.uniform(4,5))
+        sleep(random.uniform(4,5))
 
         with open('/tmp/test.txt', 'a') as f:
             submitErrors = self.driver.find_element(By.ID, 'submit-errors')
