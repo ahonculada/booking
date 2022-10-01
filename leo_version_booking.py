@@ -42,11 +42,11 @@ class BookingBot:
         # spaces should be replaced with periods whenever searching a class name in selenium
         divPanels = self.driver.find_elements(By.CLASS_NAME, 'panel.panel-default')
 
-        print(f'number of panels: {len(divPanels)}')
+        # print(f'number of panels: {len(divPanels)}')
 
-        for panel in divPanels:
-            print(panel.text)
-            break
+        # for panel in divPanels:
+        #     print(panel.text)
+        #     break
 
         # we know the first panel is room 176 so we greedily pick that
         checkboxes = divPanels[0].find_elements(By.CLASS_NAME,'booking-checkbox')
@@ -120,7 +120,7 @@ class BookingBot:
             submitErrors = self.driver.find_element(By.ID, 'submit-errors')
             # print(submitErrors.text)
             if submitErrors:
-                f.write('Errors: {}, date: {}.\n'.format(submitErrors.text,datetime.now()))
+                f.write('Errors: {}, date: {}.\n'.format(submitErrors.text, datetime.now()))
             else:
                 f.write('Hooray! We booked a room for a week after today, {}.\n'.format(datetime.now()))
 
