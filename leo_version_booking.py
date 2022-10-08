@@ -61,8 +61,7 @@ class BookingBot:
         #     if checkboxes[i]:
         #         checkboxes[i].click()
 
-        desiredTimes = set(
-            [
+        desiredTimes = {
                 '4:30pm - 5:00pm',
                 '5:00pm - 5:30pm',
                 '5:30pm - 6:00pm',
@@ -71,8 +70,7 @@ class BookingBot:
                 '7:00pm - 7:30pm',
                 '7:30pm - 8:00pm',
                 '8:00pm - 8:30pm'
-            ]
-        )
+        }
         for cb in checkboxes:
             if cb and cb.find_element(By.XPATH, '..').text.strip() in desiredTimes:
                 cb.click()
