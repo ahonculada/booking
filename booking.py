@@ -66,7 +66,7 @@ status = Select(driver.find_element_by_id('q2613'))
 status.select_by_index(2)
 
 ucfid = driver.find_element_by_id('q2614')
-ucfid.send_keys(2788042)
+ucfid.send_keys(0000000)
 
 submit_button = driver.find_element_by_id('s-lc-eq-bform-submit')
 submit_button.click()
